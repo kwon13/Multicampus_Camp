@@ -1,19 +1,18 @@
-# selenium을 이용한 파이썬 크롤링
-# 구글맵 리뷰 크롤링🤖
+## selenium-wire를 이용하여 구글맵 리뷰 크롤링🤖
 ---
 구글맵에서 장소를 검색하면 나오는 평점과 리뷰, 아이디, 날짜를 csv파일로 저장힙니다
 
-</div>
 
-# 사용한 라이브러리 🎁
-Selenium-wire
-requesets 
-json
-pandas
+
+## 사용한 라이브러리 �
+Selenium-wire  
+requesets   
+json  
+pandas  
 
 ---
 
-# 크롤링 하는 방법
+## 크롤링 하는 방법
 1. 먼저 자신이 설치한 chromedriver경로를 설정해 주세요
 2. googlereviews함수를 실행합니다!
 ```text
