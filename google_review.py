@@ -35,7 +35,7 @@ def google_reviews(store_list,gu,count=10):
         # 리뷰 더보기로 이동
         more_btn=driver.find_element_by_xpath('//*[@id="pane"]/div/div[1]/div/div/div[2]/div[1]/div[1]/div[2]/div/div[1]/span[1]/span/span/span[2]/span[1]/button')
         more_btn.click()
-        views=int(more_btn.text[2:-1])//10
+        views=int(''.join(more_btn.text[2:-1].split(',')))//10
         
         # div태그 스크롤 
         sleep(8)
