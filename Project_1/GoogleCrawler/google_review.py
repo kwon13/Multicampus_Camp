@@ -27,10 +27,10 @@ def google_reviews(store_list,gu,count=10):
         sleep(5)
         check=input('일치하는 가게를 클릭 후 y를 눌러주세요(이외 멈춤)')
         if check.upper()=='Y':
-            pass
+            now_url=driver.current_url
         else:
             break
-        now_url=driver.current_url
+        
         
         # 리뷰 더보기로 이동
         more_btn=driver.find_element_by_xpath('//*[@id="pane"]/div/div[1]/div/div/div[2]/div[1]/div[1]/div[2]/div/div[1]/span[1]/span/span/span[2]/span[1]/button')
